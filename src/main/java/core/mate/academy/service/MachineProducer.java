@@ -9,5 +9,5 @@ public interface MachineProducer<E extends Machine> {
      *
      * @return - the list of models
      */
-    List<? extends Machine> get();
+    List<E> get();
 }
